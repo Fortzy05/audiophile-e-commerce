@@ -173,9 +173,7 @@ function CheckoutClientContent({ cart, total, shipping, vat, grandTotal, payment
                 </div>
              </div>
 
-             <button type="submit" className="w-full">
-               <BigBtn text="CONTINUE & PAY" className="w-full bg-theme-orange hover:bg-theme-light-orange text-white" />
-             </button>
+             <BigBtn type="submit" text="CONTINUE & PAY" className="w-full bg-theme-orange hover:bg-theme-light-orange text-white" />
           </div>
         </form>
       </div>
